@@ -1,0 +1,59 @@
+body {
+    font-size: 24px;
+    text-align: center;
+    height: 100%;
+}
+
+header {
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.content {
+    position: relative;
+    background-color: red;
+}
+
+.boxTable {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    display: table;
+    display: table-row-group;
+    margin-top: 50px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    padding: 0px 8px;
+    font-size: 80px;
+}
+
+#rojo {
+    background-color: red;
+    margin-bottom: 15px;
+}
+
+#azul {
+    background-color: blue;
+    margin-bottom: 15px;
+}
+
+#amarillo {
+    background-color: yellow;
+    margin-bottom: 15px;
+}
+
+#verde {
+    background-color: green;
+    margin-bottom: 15px;
+}
